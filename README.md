@@ -1,5 +1,8 @@
 # MIST-4610-Group-Project-1
 
+## Team Name
+62755 Group 2
+
 ## Team Members 
 1. Sophia Tran
 2. Brooke Francis 

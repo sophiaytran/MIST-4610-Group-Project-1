@@ -55,6 +55,10 @@ Overall, the players entity anchors the database. From it branch many-to-one rel
 
 
 ## Queries:
+
+<img width="886" height="510" alt="image" src="https://github.com/user-attachments/assets/2f03fe44-5bbb-440c-8dad-1522d17fef1d" />
+
+
 ### Query 1 
 This query lists players whose GPA is less than 2.5 and who have logged more than 100 snaps this season.
 <img width="650" height="450" alt="image" src="https://github.com/user-attachments/assets/761b12d7-2c69-4692-919b-b1127fdf327c" />

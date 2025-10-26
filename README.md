@@ -2,10 +2,10 @@
 
 ## Team Members 
 1. Sophia Tran
-2. Brooke Francis @bef17821
-3. Pranav Saravanakumar @Pranav-23-23
+2. Brooke Francis 
+3. Pranav Saravanakumar 
 4. Brandon Sevel
-5. Hita Boddu @hitaboddu
+5. Hita Boddu 
 
 ## Problem Description:
 

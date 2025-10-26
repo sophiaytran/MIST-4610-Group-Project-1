@@ -4,11 +4,12 @@
 62755 Group 2
 
 ## Team Members 
-1.. Sophia Tran [@sophiaytran] (https://github.com/sophiaytran)
+1. Sophia Tran [@sophiaytran] (https://github.com/sophiaytran)
+
 2. Brooke Francis [@bef17821] (https://github.com/bef17821)
-3. Pranav Saravanakumar [@Pranav-23-23] (https://github.com/Pranav-23-23)
-4. Brandon Sevel [@BrandonSevel] (https://github.com/BrandonSevel)
-5. Hita Boddu [@hitaboddu] (https://github.com/hitaboddu)
+4. Pranav Saravanakumar [@Pranav-23-23] (https://github.com/Pranav-23-23)
+5. Brandon Sevel [@BrandonSevel] (https://github.com/BrandonSevel)
+6. Hita Boddu [@hitaboddu] (https://github.com/hitaboddu)
 
 ## Problem Description:
 

@@ -18,11 +18,11 @@ The task at hand is to model and build a relational database for the general wor
 
 ## Data Model Description: 
 
-<img width="1782" height="1024" alt="image" src="https://github.com/user-attachments/assets/61e60e18-b439-4af2-a773-7371879c7275" />
+<img width="1149" height="1006" alt="image" src="https://github.com/user-attachments/assets/aee5901a-acf2-4495-b94f-953d70ba8631" />
 
 Our model is based on the structure of an athletics roster database. The Players entity stores each athlete (with attributes such as playerName and physical measures), and it is the hub for the rest of the system. Players has a many-to-one relationship with primaryPosition, where a position records data like positionID, positionType, and the number of players at that position. Players reference their primaryPosition, so each position can have many players assigned to it.
 
-There is a role relationship in the position area as well. primaryPosition includes captainID and captainName, and it connects to players through a labeled “Captain” relationship to indicate that a position designates a specific player as captain. Inside Players there is also a recursive “Mentor” relationship through mentorID, showing that one player can serve as a mentor for other players.
+There is a 1-many role relationship in the position area as well. primaryPosition includes captainID and captainName, and it connects to players through a labeled 1-1 “Captain” relationship to indicate that a position designates a specific player as captain. Each player has 1 primary position, and each primary position has many players within that position group. Furthermore, each primary position has 1 captain who serves as the leader of that position group. Inside Players there is also a recursive “Mentor” relationship through mentorID, showing that one player can serve as a mentor for other players.
 
 Academic information is modeled by the academic_record table. Each players record can have an associated academic_record capturing items such as GPA, creditHours, expectedGraduationDate, and probationStatus. This produces a one-to-many relationship from Players to Academic_Record so that academic snapshots can be stored per player as needed.
 
@@ -48,10 +48,10 @@ Overall, the players entity anchors the database. From it branch many-to-one rel
 <img width="984" height="672" alt="image" src="https://github.com/user-attachments/assets/697231cb-1380-4b40-ab48-769bc2e81749" />
 <img width="972" height="884" alt="image" src="https://github.com/user-attachments/assets/1366db3f-984e-456f-a79c-04c8fcc0dfc2" />
 <img width="978" height="764" alt="image" src="https://github.com/user-attachments/assets/9e30e9c3-a7cd-4377-a9a5-287a590cd4af" />
-<img width="976" height="788" alt="image" src="https://github.com/user-attachments/assets/ad4c8578-6083-4b20-8b31-84f84091ca24" />
+<img width="976" height="788" alt="image" src="https://github.com/user-attachments/assets/ecf044cd-709b-4f95-a3a6-a40d703a3e5a" />
 <img width="970" height="516" alt="image" src="https://github.com/user-attachments/assets/9a6fd9c9-addc-4b2a-bb4a-e80151837295" />
 <img width="968" height="692" alt="image" src="https://github.com/user-attachments/assets/77420402-e3b1-4416-8ae3-e71355c6dbd2" />
-<img width="960" height="718" alt="image" src="https://github.com/user-attachments/assets/681c5b02-2ed3-46ce-82e6-b2c53ad586df" />
+<img width="960" height="718" alt="image" src="https://github.com/user-attachments/assets/0e0ba584-5686-4f1d-b855-fba4d7eb881d" />
 <img width="976" height="696" alt="image" src="https://github.com/user-attachments/assets/4410b237-57ce-4502-9b6a-793c8b6786b0" />
 
 

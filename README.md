@@ -15,6 +15,7 @@
 
 The task at hand is to model and build a relational database for the general workings of a collegiate athletics program focused on its team roster and operations. The centeral entity in the model is the Players entity because it is the individual athletes whose information connects practices, positions, academics, equipment, injuries, awards, statistics, and NIL activity.
 
+
 ## Data Model Description: 
 
 <img width="1782" height="1024" alt="image" src="https://github.com/user-attachments/assets/61e60e18-b439-4af2-a773-7371879c7275" />
